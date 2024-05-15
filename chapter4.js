@@ -9,3 +9,4 @@ else if(a<9){
 }else{
     console.log("hello");
 }
+console.log(" code now added in github");
