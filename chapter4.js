@@ -1,6 +1,6 @@
 const prompt=require('prompt-sync')();//it is libarari of prompt
 let a = prompt("Hey whats you age?");
-a = parseInt(a); // Converting the string to a number
+a = number.parseInt(a); // Converting the string to a number
 if(a<0){
 console.error("This is an invalid age");
 }
@@ -10,3 +10,4 @@ else if(a<9){
     console.log("hello");
 }
 console.log(" code now added in github");
+ 
