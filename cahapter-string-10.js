@@ -14,6 +14,8 @@ let boy2 = "Nikhil"
 // Nikhil is a friend of Pramod
 let sentence = `${boy2} is a friend of ${boy1}`//use blacklit to access other varebal ($ ``)
 console.log(sentence)
+//String interpolation is a great programming language feature that allows injecting variables, function calls, 
+//  and arithmetic expressions directly into a string.
 //Escape Sequence Characters
 let fruit = 'Bana\'na'
 console.log(fruit)
