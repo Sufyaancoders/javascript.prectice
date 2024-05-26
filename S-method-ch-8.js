@@ -4,13 +4,13 @@ console.log(name.toUpperCase())
 console.log(name.toLowerCase())
 console.log(name.slice(2, 4))
 console.log(name.slice(2))
-console.log(name.replace("Har", "Per"))
+console.log(name.replace("Har", "Per"))//*//
 //concat method
 let friend = "Naman"
 console.log(name.concat(" is a friend of ", friend, " Ok"))
 let friend2 = "      Meena        "
 console.log(friend2)
-console.log(friend2.trim())
+console.log(friend2.trim())//SEE
 let fr = "Raman" + "Shivika" + "Harry"
 console.log(fr[0])
 console.log(fr[1])
