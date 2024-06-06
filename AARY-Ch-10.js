@@ -1,5 +1,5 @@
 //Array Methods
-let num = [1, 2, 3, 34, 4]
+let num = [1, 2, 3, 34, 99]
 let b = num.toString() // b is now a string 
 console.log(b, typeof b)
 let c = num.join(" and ")

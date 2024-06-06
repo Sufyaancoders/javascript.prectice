@@ -28,6 +28,7 @@ num.sort(compare1)
 num.reverse()
 console.log(num)
 // Splice and Slice
+//splice
 let number = [551, 22, 3, 14, 5, 6, 7, 8, 229]
 let deletedValues = number.splice(2, 4, 1021, 1022, 1023, 1024, 1025)
 // 2 : is position of starting
