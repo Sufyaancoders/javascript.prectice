@@ -25,6 +25,7 @@ const reduce_func = (h1, h2) => {
   console.log(arr3)
   return h1+h2
 }//true check when you use return h1<10
-let newarr3 = arr3.reduce(reduce_func)
+let newarr3 = arr3.reduce(reduce_func)//count the number but filter method
+// is not count only check
 console.log(newarr3)
 console.log(arr3)
