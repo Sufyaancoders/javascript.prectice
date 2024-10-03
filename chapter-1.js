@@ -1,3 +1,4 @@
+const prompt=require('prompt-sync')();
 console.log("hellow");
 const item ={
     name  : "sufyaan ahmad",
@@ -9,7 +10,7 @@ const item ={
     console.log("age is above 22")
   }
   else{
-    consle.log("age is below 22")
+    console.log("age is below 22")
   }
     let number = prompt("enter  a number");
    if (number == 20){
