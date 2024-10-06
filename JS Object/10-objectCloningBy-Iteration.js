@@ -5,10 +5,9 @@ const rectangle = {
     draw : function(){
         console.log("Drawing rectangle");
     },
-
     area : function()
-    {
-        console.log(`Area of Rectangle: ${rectangle.length * rectangle.breadth}`);
+    {     
+     console.log(`Area of Rectangle: ${rectangle.length * rectangle.breadth}`);
     }
 }
 
@@ -23,3 +22,4 @@ for(let key in rectangle)
 
 console.log("Duplicates");
 console.log(duplicate);
+console.log(duplicate.area());

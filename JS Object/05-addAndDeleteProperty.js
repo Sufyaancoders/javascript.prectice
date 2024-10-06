@@ -20,7 +20,7 @@ console.log(rectangle1.length);
 console.log(rectangle1.breadth);
 console.log(rectangle1.area);
 console.log(rectangle1);
-
+//dynamic properties
 // Now remove properties from Objec
 delete rectangle1.area;
 console.log(rectangle1);
