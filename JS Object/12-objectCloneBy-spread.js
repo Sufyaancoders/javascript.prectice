@@ -1,3 +1,6 @@
+// Object Cloning by spread
+
+/// much faster and less code
 const rectangle = {
     length: 2,
     breadth: 4,

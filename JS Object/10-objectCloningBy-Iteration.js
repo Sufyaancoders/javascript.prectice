@@ -1,3 +1,4 @@
+// Object Cloning by Iteration
 const rectangle = {
     length: 2,
     breadth: 4,

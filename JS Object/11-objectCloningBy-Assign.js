@@ -1,3 +1,4 @@
+// Object Cloning by Assign
 const rectangle = {
   length: 2,
   breadth: 4,
