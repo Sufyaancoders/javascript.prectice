@@ -1,4 +1,4 @@
-// Hoisting 
+// Hoisting --> function are call top of the file
 "use strict";
 // Not declared but it gives output 
 console.log(sum(10,45)); // 55

@@ -1,12 +1,11 @@
 let add = function addTwoNumbers(a,b)
 {
-    // console.log(arguments);
-    let sum = 0;
-    for(let key of arguments)
-        sum += key;
+    //console.log(arguments);
+     let sum = 0;
+     for(let key of arguments)
+       sum += key;
     return sum; 
 }
-
 let num1 = Math.round(Math.random() * 100);
 let num2 = Math.round(Math.random() * 100);
 let num3 = Math.round(Math.random() * 100);

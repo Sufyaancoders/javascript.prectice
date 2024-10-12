@@ -1,5 +1,8 @@
+// rest operator
 let add = function addTwoNumbers(a,b,...args) 
 {
+    console.log(arguments);
+    
     console.log(args);
     let sum = 0;
     for(let key of args)

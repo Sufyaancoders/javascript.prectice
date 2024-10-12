@@ -1,3 +1,4 @@
+// assignment function without function name  
 let add = function (a,b)
 {
     let sum = a+b;

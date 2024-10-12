@@ -7,4 +7,5 @@ let add = function addTwoNumbers(a,b)
 
 let num1 = Math.round(Math.random() * 1000);
 let num2 = Math.round(Math.random() * 1000);
-console.log(add(num1,num2));   
+// only call the function at bottom use assignment function
+console.log(add(num1,num2));     
