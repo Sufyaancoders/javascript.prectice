@@ -5,35 +5,34 @@ console.log(Math.abs(3 - 7));
 console.log(Math.max(1, 6));
 console.log(Math.min(1, 6));
 
-// String
-console.log("String Object");
-let lastName = "Patel";
+// string premitive mai aesaa likha ga  
+let lastName = "Patel";// string premitive mai aesaa likha ga 
 console.log(typeof lastName);
-
-let firstName = new String("Priyansh");
+// string object is written 
+let firstName = new String("Priyansh"); // string object mai aesaa likha ga
 console.log(typeof firstName);
 
 let fullName = firstName + " " + lastName;
 console.log(fullName);
 console.log(typeof fullName);
-
+// Methods of String Object
 console.log(firstName.length);
 console.log(firstName.includes("Pri"));
 console.log(firstName.startsWith("Pri"));
 console.log(firstName.endsWith("Pri"));
 console.log(firstName[0]);
-let anotherName = firstName.replace("Priyan", "khu") + "i";
+let anotherName = firstName.replace("Priyan", "khu") + "i";// replace priyan with khu
 console.log(anotherName);
 
 let string = "    this is   a  string  ";
 console.log(string);
-string = string.trim();
+string = string.trim();// remove space
 console.log(string);
 
 console.log(firstName.toLowerCase());
 console.log(firstName.toUpperCase());
 
-let wordsInString = string.split(" ");
+let wordsInString = string.split(" ");// add space ""
 console.log(wordsInString);
 
 // Template Literals
@@ -41,17 +40,19 @@ console.log(wordsInString);
 let message = `This is a 
 message for 
 template literals`;
-
+// ``--> back tick -> single quote is used
 console.log(message);
 
 // Date Objects
 let date = new Date();
+// print current date 
 console.log(date);
-
+// secound method --> date print
 let date2 = new Date("apr 16 2003 11   :15:00").toString();
 console.log(date2);
 
 date.setFullYear(2000);
+// change date
 console.log(date);
 
 console.log(date.getFullYear());
@@ -61,16 +62,17 @@ let arr = [1, 4, 5, 7, 5, 6, 4];
 console.log(arr);
 console.log(arr[3]); //7
 
-// Insertion
+// Insertion in array
 arr.push(10);
 arr.unshift(0);
-arr.splice(4, 0, "Priyansh"); //index numberOfDeletedElements ValueInserted
+
+arr.splice(4, 0, "Priyansh"); //index , numberOfDeletedElements, ValueInserted
 
 console.log(arr);
 
 // Searching
-console.log(arr.indexOf(4));
-console.log(arr.indexOf(14));
+console.log(arr.indexOf(4)); //konse index mai ya  value hai  
+console.log(arr.indexOf(14));// ya nahi present  hai isliya --1 prient hoga // iske jagha incluide function use kae sakth hai //
 
 arr.includes(4) ? console.log("Present") : console.log("Absent");
 
@@ -105,7 +107,7 @@ console.log(courses);
 // );
 
 
-let course = courses.find(function(course) {
+let course = courses.find(function(course) { 
     return course.NAme === "Priyansh";
 });
 
@@ -117,6 +119,9 @@ course = courses.find(function(course) {
 
 console.log(course);
 
+// seound method to call function in object item
+
+// use => symbol for arrow function
 course = courses.find(course => course.NAme === "Priyansh");
 console.log(course);
 
@@ -143,12 +148,13 @@ arr = num;
 // console.log(arr);
 
 // #3 - 
+// splice
 num.splice(0, num.length);
 console.log(num);
 console.log(arr);
 
 
-// Combining
+// Combining 
 let first = [2,4,6];
 let second = [1,3,5];
 
@@ -178,14 +184,19 @@ for(let value of combined)
 // combined.forEach(function(number) {
 //     console.log(number);
 // });
+//forEach loop use in array
 
+// call back function use in forEach method bases on array and => symbol
 combined.forEach(number => console.log(number));
-
+// call back function use in forEach method bases on array and function method
+combined.forEach(function(number){
+  console.log(number)});
 
 // Joined ARRAy 
 let joined = combined.join("__");
 console.log(joined);
 
+// split opposite of join
 
 let spilted = joined.split("__");
 console.log(spilted);
@@ -201,7 +212,7 @@ console.log(combined);
 // Filtering in Array 
 let numbers = [1,2,3,4,5,6,7,8,9,-5,-7,-4,-5];
 console.log(numbers);
-
+/// value > 0 --> positive = working  as a filter in array
 let positive = numbers.filter(value => value >= 0);
 console.log(positive);
 
@@ -209,7 +220,7 @@ console.log(positive);
 let item = [4,5,6,7,8,9,10,11,12,13,14];
 let itemSquare = item.map(value => value * value);
 console.log(itemSquare);
-
+console.log("Map with Object");
 let mapWithObject = item.map(value => {return{Number : value}});
 console.log(mapWithObject);
 

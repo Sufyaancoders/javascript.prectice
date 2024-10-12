@@ -1,4 +1,5 @@
-// Date Object 
+// Date Object  
+//string --> can be written in two type ..1/ premitive , 2/object   
 let date = Date(); //DAte in a string formate
 console.log(date);
 
@@ -42,7 +43,7 @@ console.log(birthday);
 birthday.setYear(2003)
 console.log(birthday);
 
-birthday.setMonth(03);
+birthday.setMonth(3);
 console.log(birthday);
 
 birthday.setDate(16);

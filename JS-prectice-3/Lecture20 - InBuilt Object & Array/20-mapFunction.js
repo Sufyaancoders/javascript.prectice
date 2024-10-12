@@ -4,6 +4,10 @@ console.log(arr);
 // Mapping Each Number to its corresponding Square
 let arrSquare = arr.map(val => val * val);
 console.log(arrSquare);
-
+// mapping with object
 let objArray = arr.map(val => {return{Element : val}});
 console.log(objArray);
+// mapping with function
+// val--> is array element
+item =arr.map(val => console.log("student marks : ",val));
+
