@@ -1,5 +1,6 @@
 // let simpleInterest = (P , T=2 , R) => {return(P*T*R)/100};
 // After Default parameter all remaining parentheses must be empty 
+//default parameter must be at the end. 
 let simpleInterest = (P , T , R=10) => {
     return(P*T*R)/100};
 

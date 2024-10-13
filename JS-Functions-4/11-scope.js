@@ -1,7 +1,7 @@
 // Three wAys to create variable
-
+// 
 // #1
-
+// var ---> accessible everywhere
 console.log("var");
 var a = 10;
 console.log(a);

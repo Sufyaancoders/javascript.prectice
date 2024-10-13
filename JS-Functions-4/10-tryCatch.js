@@ -1,3 +1,5 @@
+// error handling using try catch
+const prompt=require('prompt-sync')();
 let person = {
     firstName : "Priyash",
     lastName : "Patel",
@@ -11,13 +13,13 @@ let person = {
     // Setter
     set fullName(value)
     {
-        if(typeof value !== 'string')
+        if(typeof value !== "string")
         {
             throw "You must pass a string";
         }
         let name = value.split(" ");
-        this.firstName = name[0];
-        this.lastName = name[1];
+        this.firstName = name[1];
+        this.lastName = name[0];
     }
 }
 
@@ -29,6 +31,6 @@ try{
     person.fullName = true;
 }
 catch(e){
-    // console.log(e);
-    alert(e);
+    console.log(e);
+//    alert(e);
 }
