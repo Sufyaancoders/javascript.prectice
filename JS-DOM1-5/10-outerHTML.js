@@ -6,3 +6,4 @@ console.log(list.outerHTML);
 //         <li><a href="#">Item 2</a></li>
 //         <li><a href="#" style="display:none;">Item 3</a></li>
 //       </ul>
+//

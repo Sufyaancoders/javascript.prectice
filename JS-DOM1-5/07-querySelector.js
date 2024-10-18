@@ -1,5 +1,5 @@
 // We can select anything by querySelector 
-
+// acces of html tag ussing quare ...
 // #1 - class 
 let classItem = document.querySelector('.nextSlide');
 console.log(classItem);

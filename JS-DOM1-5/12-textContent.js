@@ -4,3 +4,5 @@ console.log(list.textContent);//show hidden list
 // Item 1
 // Item 2
 // Item 3
+//as a text content in textcontent and
+// innerhtml as a render treet in innerhtml

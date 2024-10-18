@@ -31,6 +31,6 @@ try{
     person.fullName = true;
 }
 catch(e){
-    console.log(e);
-//    alert(e);
+    // console.log(e);
+   alert(e);
 }
