@@ -1,3 +1,5 @@
+// event target>>>> is a interface by object that can recieive event and may have listeners gor them 
+//three-type of event>>> == > addEventListener(), removeEventListener(), dispatchEvent()
 let btn = document.getElementById('btn');
 console.log(btn);   
 
