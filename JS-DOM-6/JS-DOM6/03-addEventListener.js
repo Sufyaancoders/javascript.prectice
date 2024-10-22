@@ -16,3 +16,4 @@ btn.addEventListener('click', () => {
     let color = `rgb(${red}, ${green}, ${blue})`;
     document.body.style.backgroundColor = color;
 });
+// js mai css ki property add karth time style.cssText hota hai

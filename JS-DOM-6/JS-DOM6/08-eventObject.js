@@ -4,3 +4,5 @@ head.addEventListener('click', function(event) {
     console.log(event.target);
     console.log(event.target.tagName);
 });
+// event browser bhaj th  hai 
+//

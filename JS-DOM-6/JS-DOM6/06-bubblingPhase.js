@@ -1,3 +1,6 @@
+// pahse of event >>>== 1- capturing phase,
+// 2- target phase, 3- bubbling phase
+// Sequence - div, -> h1,-> span <== taget , bubble , capturi
 let head = document.querySelector('#head');
 head.addEventListener('click',function(event){
     alert("target = " + event.target.tagName + ", this=" + this.tagName);

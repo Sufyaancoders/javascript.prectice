@@ -28,5 +28,4 @@ for (let i = 1; i <= 100; i++) {
   paragraph.appendChild(content);
   parentDiv.appendChild(paragraph);
 }
-
 document.body.appendChild(parentDiv);

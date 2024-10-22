@@ -12,4 +12,4 @@ head.parentNode.parentNode.addEventListener('click',function(event){
     alert("target = " + event.target.tagName + ", this=" + this.tagName);
 },{capture:true});
 
-// Sequence - div,  h1, span
+// Sequence - div, -> h1,-> span <== taget,bubble,capturi
