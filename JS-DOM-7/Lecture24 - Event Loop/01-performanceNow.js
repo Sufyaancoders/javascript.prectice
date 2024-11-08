@@ -5,12 +5,13 @@ let arr = Array(size).fill(1);
 
 // Iterate With Normal For Loop 
 let t1 = performance.now();
+// it give me the time in millisecond with the help of performance.now()
 for(let i = 0; i < size;i++){
     console.log(arr[i]);
 }
 let t2 = performance.now();
 console.log(`Normal Loop Takes Time to Run ${t2-t1}ms`);
-
+console.log(t1-t2);// it measure the time in millisecond
 
 // Iterate with for of 
 t1 = performance.now();
