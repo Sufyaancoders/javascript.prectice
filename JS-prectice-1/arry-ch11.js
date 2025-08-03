@@ -24,19 +24,24 @@ let compare1 = (a, b)=>{
 }
 let num = [551, 22, 3, 14, 5, 6, 7, 8, 229]
 num.sort(compare)
+console.log(num ,"sort in desanding oder");
 num.sort(compare1)
 num.reverse()
 console.log(num)
 // Splice and Slice
 //splice
+
+
 let number = [551, 22, 3, 14, 5, 6, 7, 8, 229]
+console.log(number)
 let deletedValues = number.splice(2, 4, 1021, 1022, 1023, 1024, 1025)
 // 2 : is position of starting
 // 4: is number of remove
 console.log(number)
-console.log(deletedValues)
+console.log(deletedValues, "deleted values")
 //slice
 let newNum = number.slice(3)
 let wNum1= number.slice(3, 5)
 console.log(newNum)
 console.log(wNum1)
+console.log(number)

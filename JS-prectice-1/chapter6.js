@@ -18,3 +18,10 @@ let obj = {
     console.log(b)
   }
   
+  const item ={
+    name  : "sufyaan ahmad",
+    age  : "20"
+ }
+ for (let i=0; i<Object.keys(item).length;i++){
+ console.log("the "+Object.keys(item)[i]+"and"+item[Object.keys(item)[i]])
+ }

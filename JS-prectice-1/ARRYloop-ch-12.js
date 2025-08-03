@@ -13,6 +13,7 @@ num.forEach((element) => {
 let name = "Harry"
 let arr = Array.from(name) 
 console.log(arr)
+console.log(typeof(arr))
 // for...of 
 for (let item of num){
   console.log(item)
@@ -24,3 +25,6 @@ for (let i in num){
   console.log( "  ")
   console.log(i)
 }
+ // Array.fill mathod
+let arry= new Array(5).fill(Math.random())
+console.log(arry);

@@ -5,9 +5,9 @@ function first ( a, b)
 
 } 
 let a=prompt("enter a number");
-
+//Purpose: Converts a string into an integer number
 a=Number.parseInt(a);
-
+// 
 let b=prompt("enter a number")
 
 b=Number.parseInt(b);
