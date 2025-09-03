@@ -15,12 +15,16 @@
 // InstanceType<Type> - gets the instance type of a constructor function
 
 // Partial<Type>
-
+// output will be 
 type Useres ={
     name:string,
     email:string
 }
 type User2 = Partial<Useres>
+// Create an object to log the structure
+const exampleUser2: User2 = {
+   name: "Example" };
+console.log(exampleUser2); // { name: 'Example' }
 
 // Required<Type> - opposite of partial
 type Userq ={
@@ -31,6 +35,8 @@ const user: Required<Userq>={
     name:"abhi",
     email:"abhi@gmail.vom"
 }
+console.log(user);
+//{ name: 'abhi', email: 'abhi@gmail.vom' }
 
 // Readonly<Type> - makes every property readonly
 type User22 ={
@@ -85,9 +91,16 @@ interface ShippingInfoes {
 }
 
 type Random = Omit<ShippingInfoes,"country">
-
+const ab :Random = {
+    city:"New York",
+    state:"NY"
+    // country:"USA"
+}
+console.log(ab);
 // Exclude<Type, ExcludedUnion> 
 type MyUnion = string | number | boolean
+
+
 type Randoesm = Exclude<MyUnion , boolean>
 
 // Extract<Type, Union>
@@ -112,11 +125,13 @@ class SampleClass {
 type Random5 = ConstructorParameters<typeof SampleClass>
 
 // ReturnType<Type>
-// const myfunc = (a: number, b: string):string => {
-//   return a + b;
-// };
-// type FuncType = ReturnType< typeof myfunc>
+const myfunc3 = (a: number, b: string):string => {
+  return a + b;
+};
+type FuncType3 = ReturnType< typeof myfunc3>;
 
+const qwe: FuncType3 ="hello";
+console.log(qwe);
 // InstanceType<Type>
 // class SampleClass {
 //   constructor(public s: string, public t: string) {}

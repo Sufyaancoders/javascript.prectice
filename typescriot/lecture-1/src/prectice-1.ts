@@ -44,7 +44,7 @@ doubler = "Hello"; // a can also be a string
 console.log(doubler);
  
 // Function type
-function add(a: number, b: number): number {
+function add(a: number , b: number): number {
     return a + b;
 }   
 console.log(add(5, 10)); // Output: 15
@@ -57,7 +57,7 @@ console.log(multiply(5, 10)); // Output: 50
 
 // Default Parameter
 type Fu = (n: number, m: number, l?: number) => number;
-const func: Fu= (n, m, l = 20) => {
+const func: Fu = (n, m, l = 20) => {
   return n * m * l;
 };
 
