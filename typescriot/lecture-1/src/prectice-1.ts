@@ -57,11 +57,11 @@ console.log(multiply(5, 10)); // Output: 50
 
 // Default Parameter
 type Fu = (n: number, m: number, l?: number) => number;
-const func: Fu = (n, m, l = 20) => {
+const funces: Fu = (n, m, l = 20) => {
   return n * m * l;
 };
 
-func(25, 23);
+funces(25, 23);
 
 
 // Rest Operator
@@ -78,11 +78,11 @@ fun(25, 23, 34, 6, 67, 8, 9);
 
 
 // Interface
-interface Person {
+interface Person1 {
     name: string;
     age: number;
 }
-const person: Person = {
+const person: Person1 = {
     name: "John",
     age: 30
 };
